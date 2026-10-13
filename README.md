@@ -2,7 +2,7 @@
 
 MycoExtract is a domain-aware, multi-LLM framework for curating kinetic and degradation evidence for enzymatic mycotoxin detoxification from scientific literature.
 
-This repository contains the extraction workflow code, prompts, configuration files, deterministic quality-tier rules, and validation utilities used for the MycoExtract manuscript. Curated data tables, original/source data, web-resource files, manuscript figure-generation assets, and modelling release materials are not included in this code-only release.
+This repository contains the extraction workflow code, prompts, configuration files, deterministic quality-tier rules, and validation utilities used for the MycoExtract manuscript. Curated database records, manual validation materials, complex-table comparison data and kinetic-modelling inputs and results are available in [revision_data](revision_data/).
 
 ## Manuscript Configuration
 
@@ -88,3 +88,7 @@ The release contains only placeholder API-key examples and environment-variable 
 ## License
 
 This project is released under the MIT License. See `LICENSE`.
+
+## Revision data
+
+The [revision_data](revision_data/) folder provides three data workbooks and a compact analysis archive for the manuscript revision. See its README for file contents and reproduction instructions.
