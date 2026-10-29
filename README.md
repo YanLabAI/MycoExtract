@@ -79,7 +79,7 @@ python scripts/run_all_papers_full_extraction.py --inventory-only
 
 ## Validation
 
-The repository includes validation utilities and regression tests for the extraction pipeline. Manuscript source data, generated figures, web-resource files, and modelling datasets are intentionally excluded from this code-only release.
+The repository includes validation utilities and regression tests for the extraction pipeline. The processed database, validation references, modelling inputs, frozen features and analysis scripts are provided in [revision_data](revision_data/). The additional-prediction archive also includes all 50 retrospective predictions and source data and plotting scripts for Figures S5–S7.
 
 ## Secret Handling
 
@@ -91,4 +91,6 @@ This project is released under the MIT License. See `LICENSE`.
 
 ## Revision data
 
-The [revision_data](revision_data/) folder provides three data workbooks and a compact analysis archive for the manuscript revision. See its README for file contents and reproduction instructions.
+The [revision_data](revision_data/) folder provides three data workbooks, the core analysis archive and an additional prediction/figure-data archive for the manuscript revision. See its README for file contents and reproduction instructions.
+
+The [29 October additional data archive](revision_data/05_Additional_predictions_and_figure_data.zip) preserves complete fold metrics and selected model configurations alongside the SI boxplots. See [data checksums](revision_data/SHA256SUMS.txt) for the release file hashes.
