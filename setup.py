@@ -30,7 +30,7 @@ setup(
     description="Multi-Agent LLM Pipeline for Mycotoxin-Degrading Enzyme Data Extraction",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/andy88836/MycoExtract",
+    url="https://github.com/YanLabAI/MycoExtract",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[

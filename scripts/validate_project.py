@@ -18,22 +18,17 @@ REQUIRED_FILES = {
         ".gitignore",
     ],
     "配置文件": [
-        "config/extraction_config.yaml",
-        "config/extraction_config_v7_expanded.yaml",
+        "config/extraction_config_v8.yaml",
     ],
     "提示词": [
-        "prompts/prompts_extract_from_text_v7_expanded.txt",
-        "prompts/prompts_extract_from_table_v7_expanded.txt",
+        "prompts/prompts_extract_from_text_v8.txt",
+        "prompts/prompts_extract_from_table_v8.txt",
         "prompts/prompts_review_agent_system.txt",
         "prompts/prompts_sequence_detective.txt",
     ],
     "脚本": [
+        "scripts/run_all_papers_full_extraction.py",
         "scripts/run_extraction.py",
-    ],
-    "文档": [
-        "docs/ARCHITECTURE.md",
-        "docs/EXTRACTION_FLOW.md",
-        "docs/API_REFERENCE.md",
     ],
     "示例": [
         "examples/basic_usage.py",

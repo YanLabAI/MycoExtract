@@ -1,0 +1,25 @@
+study,doi,year,evidence_checked,decision,reason
+DONepi and DONrd,10.1038/s41467-026-70007-z,2026,Full text and deposited translations,Included primary,Original two adverse cases retained
+Nine ZenA homologues,10.1021/acscatal.4c00271,2024,Full text Table 1 image and protein accessions,Included primary,All nine soluble kinetically characterized homologues included
+ZHRnZ WT E122Q E122R,10.3390/ijms25179665,2024,Full text Table 3 and protein accession,Included primary,Three variants and reported parameters retained with mass-unit conversion
+ZPH1101,10.3390/toxins17010021,2025,Full text and 100 percent identity statement,Included primary,Reported kcat and Km only
+Cr2zen,10.3390/toxins18010010,2026,Full text and protein accession,Included primary Km only,Efficiency units inconsistent so only Km scored
+MgSDR1,10.1002/advs.202501146,2025,Full text Figure 3 and SI Table S5,Exploratory proxy,Invalid NP accession corrected to matching XP reference but experimental strain sequence not deposited
+ZenR,10.3390/toxins15120688,2023,Full text and explicit accession,Included primary Km only,Older independent study admitted under broadened date scope
+ZENM secretory expression,10.1016/j.pep.2025.106843,2026,Publisher and PubMed abstract plus earlier accession provenance,Exploratory proxy,Exact expressed construct not independently verified from full text
+ZHDAY3 WT N153H,10.1128/aem.01818-23,2024,Publisher Table 3 and full-text indexed accession,Included primary,All two kinetic variants included with alpha-zearalanol substrate
+AsPLa-D,10.1002/pro.70729,2026,Full text and author SI designed sequence,Exploratory construct,Assay used MBP fusion while features encode designed catalytic domain
+ZHD30L WT Mut5,10.3390/toxins18080324,2026,Full text and SI,Not predicted,No unambiguous accession or full machine-readable tested sequence verified; do not substitute a homolog
+Commercial ZENG nanoflower,10.3390/toxins18050229,2026,Full text,Not predicted,Commercial sequence not disclosed and immobilization changes assay context
+AMH2102,10.3390/toxins18020101,2026,Full text,Not predicted,Comparable kcat or Km values not located in checked article
+MbAmh1,10.1016/j.jare.2024.07.023,2024,Full text online 2024 issue 2025,Not predicted,Comparable kcat or Km values not located in checked article
+ZenX,10.1016/j.enzmictec.2026.110849,2026,Publisher abstract,Pending full text,Specific activity and conversion percentages cannot substitute for kinetic targets
+An48 and ZHDX6,10.1021/acs.jafc.6c04812,2026,Publisher abstract and indexed Table 2,Pending author sequences,SI retrieval failed with HTTP 403; cannot input ancestral sequence without verifying it
+ZHD101 T229C D170C,10.1021/acs.jafc.5c05633,2026,Publisher and PubMed abstract,Pending full text,Stability improvements cannot substitute for directly verified kinetic targets
+DDE from Devosia JA3,10.3390/toxins17120588,2025,Full text,Not predicted,Km present but KFL25551 is the DepA reference used to design primers rather than a verified DDE sequence
+BsSDR,10.1016/j.fm.2024.104676,2025,Publisher abstract,Pending full text,Exact sequence plus target measurements not jointly verified
+Pediococcus NX8 multi-hydrolases,10.1016/j.foodchem.2026.150778,2026,PubMed metadata and abstract,Pending full text,Comparable sequence-linked kinetic targets not verified
+ZENM M157 mutants,10.1016/j.ijbiomac.2024.138531,2025,Publisher abstract,Pending full text,Abstract does not provide the complete kinetic table
+ZENM PeDDH fusion,10.1016/j.ijbiomac.2025.146534,2025,Publisher abstract,Not directly comparable,Whole fusion conversion outcomes cannot be treated as single-enzyme kinetic measurements
+ZHD pH engineering,10.3390/toxins16120540,2024,Full text,Not predicted,Relative activity and pH profiles do not provide the requested kinetic targets
+DON bifunctional chassis study,10.1021/acs.jafc.6c10441,2026,Publisher or PubMed abstract previously checked,Not directly comparable,Chassis and multistep conversion are not direct kinetic validation

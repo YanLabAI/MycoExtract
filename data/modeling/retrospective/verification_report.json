@@ -1,0 +1,20 @@
+{
+  "measurements": 50,
+  "enzymes_or_variants": 22,
+  "max_absolute_log10_prediction_difference": 2.4080276489257812e-05,
+  "max_absolute_log10_baseline_difference": 2.7755575615628914e-17,
+  "tolerance_log10": 0.0001,
+  "all_values_verified_within_tolerance": true,
+  "twofold_classifications_unchanged": true,
+  "same_log10_predictions_to_three_decimals": 49,
+  "verification_runtime": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1"
+  },
+  "original_prediction_values_preserved": true,
+  "fold_csvs_verified_against_removed_presentation_tables": true,
+  "figure_plot_scripts_executed": true
+}

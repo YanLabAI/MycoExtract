@@ -1,0 +1,16 @@
+﻿Target,Outer fold,n test,Selected model,R²,RMSE / MAE,Spearman ρ
+kcat,1,15,Ridge,0.020,0.317 / 0.263,0.203
+kcat,2,13,kNN,0.474,0.657 / 0.530,0.412
+kcat,3,13,kNN,0.759,0.520 / 0.354,0.719
+kcat,4,13,kNN,0.909,0.367 / 0.313,0.784
+kcat,5,12,kNN,0.746,0.609 / 0.530,0.879
+kcat /Km,1,15,RandomForest,-1.730,0.751 / 0.665,0.439
+kcat /Km,2,13,kNN,0.449,1.338 / 1.014,0.527
+kcat /Km,3,13,Ridge,-2.127,2.575 / 1.458,-0.022
+kcat /Km,4,12,Ridge,0.509,1.267 / 1.031,0.823
+kcat /Km,5,12,GradientBoosting,0.853,0.676 / 0.558,0.914
+Km,1,15,GradientBoosting,-1.340,0.802 / 0.663,-0.384
+Km,2,14,GradientBoosting,0.138,1.206 / 0.867,0.578
+Km,3,14,GradientBoosting,-0.411,0.840 / 0.725,0.200
+Km,4,14,GradientBoosting,0.637,0.481 / 0.434,0.801
+Km,5,14,GradientBoosting,0.407,0.675 / 0.489,0.570

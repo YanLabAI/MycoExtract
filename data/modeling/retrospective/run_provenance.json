@@ -1,0 +1,10 @@
+{
+  "model": "Original StandardScaler + fixed Ridge alpha=10",
+  "hashes": {
+    "kinetic_modeling_dataset.csv": "b2b481a6739a15cdbda923afa7f7a734cc46f2c550b0abdaf72ba4c52892452e",
+    "feature_matrix.npz": "64d06467134c00dd09ee9fe6bea97da96bac2310583bd21edd7514a0430836b5"
+  },
+  "candidates": 22,
+  "parameters": 50,
+  "training_unchanged": true
+}

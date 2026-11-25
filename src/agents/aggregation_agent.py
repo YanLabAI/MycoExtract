@@ -53,7 +53,7 @@ class AggregationAgent:
     def _load_default_extraction_prompt(self) -> str:
         """加载默认的提取Prompt"""
         import os
-        prompt_path = "prompts/prompts_extract_from_text_v7_expanded.txt"
+        prompt_path = "prompts/prompts_extract_from_text_v8.txt"
         if os.path.exists(prompt_path):
             with open(prompt_path, "r", encoding="utf-8") as f:
                 return f.read()

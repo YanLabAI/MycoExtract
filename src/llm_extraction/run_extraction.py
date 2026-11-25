@@ -63,7 +63,7 @@ class ExtractionPipeline:
     - Supports concurrent processing and multi-agent mode via EnhancedExtractionPipeline
     """
     
-    def __init__(self, config_path: str = "config/extraction_config.yaml", 
+    def __init__(self, config_path: str = "config/extraction_config_v8.yaml",
                  cli_overrides: Optional[Dict[str, Any]] = None,
                  max_workers: int = 3,
                  use_multi_agent: bool = False):
@@ -122,9 +122,9 @@ class ExtractionPipeline:
         self.enhanced_pipeline = EnhancedExtractionPipeline(
             text_client=text_client,
             multimodal_client=multimodal_client,
-            text_prompt_path=self.file_paths.get("prompt_text", "prompts/prompts_extract_from_text_v7_expanded.txt"),
-            table_prompt_path=self.file_paths.get("prompt_table", "prompts/prompts_extract_from_table_v7_expanded.txt"),
-            figure_prompt_path=self.file_paths.get("prompt_figure", "prompts/prompts_extract_from_table_v7_expanded.txt"),
+            text_prompt_path=self.file_paths.get("prompt_text", "prompts/prompts_extract_from_text_v8.txt"),
+            table_prompt_path=self.file_paths.get("prompt_table", "prompts/prompts_extract_from_table_v8.txt"),
+            figure_prompt_path=self.file_paths.get("prompt_figure", "prompts/prompts_extract_from_table_v8.txt"),
             max_workers=max_workers,
             use_multi_agent=use_multi_agent,
             max_retries=self.extraction_params.get('max_retries', 3),
@@ -485,7 +485,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Extract using YAML config (default: config/extraction_config.yaml)
+  # Extract using YAML config (default: config/extraction_config_v8.yaml)
   python -m src.llm_extraction.run_extraction
   
   # Extract first 10 papers
@@ -500,7 +500,7 @@ Examples:
       --output-json-dir data/my_json
 
 Configuration:
-  The pipeline uses YAML configuration (config/extraction_config.yaml) which defines:
+  The pipeline uses YAML configuration (config/extraction_config_v8.yaml) which defines:
   - text_client: Cost-effective model for text extraction (e.g., DeepSeek)
   - multimodal_client: Vision-capable model for tables/figures (e.g., GLM-4.5V)
   
@@ -511,8 +511,8 @@ Configuration:
     parser.add_argument(
         "--config",
         type=str,
-        default="config/extraction_config.yaml",
-        help="Path to YAML configuration file (default: config/extraction_config.yaml)"
+        default="config/extraction_config_v8.yaml",
+        help="Path to YAML configuration file (default: config/extraction_config_v8.yaml)"
     )
     parser.add_argument(
         "--input-dir",

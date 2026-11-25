@@ -5,8 +5,6 @@
 # - Mycotoxin substrate whitelist enforced via QualityConstraintFilter
 # - zero_record_rescue path REMOVED
 # - 5-column enzyme name shrunk to 3 (reported_enzyme_name / enzyme_name / gene_name)
-#
-# See REFACTOR_PROMPT_v8.md in repo root for full rationale.
 
 # ============================================================================
 # LLM Client Configuration

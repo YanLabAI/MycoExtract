@@ -1,0 +1,382 @@
+[
+  {
+    "enzyme": "ZenA_Re",
+    "accession": "AYJ13169.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MAEEGTRSEAADAATQARQLPDSRNIFVSHRFPERQVDLGEVVMNFAEAGSPDNPALLLLPEQTGSWWSYEPVMGLLAENFHVFAVDIRGQGRSTWTPRRYSLDNFGNDLVRFIALVIKRPVVVAGNSSGGLLAAWLSAYAMPGQIRAALCEDAPFFASELVPAYGHSVLQAAGPAFELYRDFLGDQWSIGDWKGFVEAAKASPAKAMQLFPTPDEAPQNLKEYDPEWGRAFFEGTVALHCPHDRMLSQVKTPILITHHARTIDPETGELLGALSDLQAEHAQDIIRSAGVRVDYQSHPDALHMMHLFDPARYAEILTSWSATLPAND",
+    "values": {
+      "Km_uM": 0.34,
+      "kcat_s": 2.924
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.20125786163522014
+  },
+  {
+    "enzyme": "ZenA_Ku",
+    "accession": "AHH94730.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MSVPVTPSARNVFVPHAFPEKQIDLGEVVLNYAEAGTPDKPALLLLPEQTGSWWSYEPAMGLLAEHFHVFAVDLRGQGRSTWTPGRYSLDNFGNDLVRFIALAIRRPVVVAGCSSGGVLAAWLSAYALPGQIRGALCEDAPLFASELTPAHGHGVRQGAGPVFELYRDYLGDQWSVGDWAGLVAAAQASPAKMMSLFKMPGEPPQNLREYDPEWARVFFEGTVGLHCPHDRMLSQVKTPVLITHHARTTDPETGEFLGALSELQAERAQAIIRAAGVPVDYQSFPDAAHAMHTTEPARYAAVLTAWAAKLPPVADTSPSAAASAHV",
+    "values": {
+      "Km_uM": 3.02,
+      "kcat_s": 1.972
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.17791411042944785
+  },
+  {
+    "enzyme": "ZenA_Sv",
+    "accession": "YP_004810515.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MADPAQRDVYVPHAYPEKQADLGEITMNYAEAGEPDMPAVLLIPEQTGSWWGYEEAMGLLAENFHVYAVDLRGQGRSSWAPKRYSLDNFGNDLVRFIALVVKRPVIVAGNSSGGVLAAWLSAYSMPGQVRGALCEDAPFFASELVTTCGHSIRQAAGPMFELFRTYLGDQWSVGDWTGYCRAADASSSPMARYFVADEIPQHMREYDPEWARAFWEGTVALHCPHEQLLTQVKTPVLLTHHMRDIDPDTGHLVGALSDEQAARARLLMESAGVKVDYASVPDALHMMHQFDPPRYVEIFTQWAATLAA",
+    "values": {
+      "Km_uM": 0.52,
+      "kcat_s": 2.156
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.1761006289308176
+  },
+  {
+    "enzyme": "ZenA_Sl",
+    "accession": "WP_003971353.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MVTSPALRDVHVPHAYPEQQVDLGEITMNYAEAGDPGRPAVLLIPEQTGSWWSYEEAMGLLAEHFHVYAVDLRGQGRSSWTPKRYSLDNFGNDLVRFMALVVRRPVVVAGNSSGGVLAAWLSAYSMPGQIRGVLCEDPPFFASELVPAHGHSVRQGAGPVFELFRTYLGDQWSVGDWEGFRSAAGASASPMARSFVADTIPQHLKEYDPEWARAFYEGTVGLNCPHERMLNRVNTPVLLTHHMRGTDPETGNLLGALSDEQAAQARRLMESAGVKVDYESVPDASHMMHQSDPARYAEILTPWAAALAP",
+    "values": {
+      "Km_uM": 2.99,
+      "kcat_s": 0.712
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.19753086419753085
+  },
+  {
+    "enzyme": "ZenA_Scfl",
+    "accession": "WP_007388500.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MVTSPALRDVHVPHAYPEQQVDLGEITMNYAEAGDPDRPAVLLIPEQTGSWWSYEEAMGLLSEHFHVYAVDLRGQGRSSWTPKRYSLDNFGNDLVRFIALVVKRPVVVAGNSSGGVLAAWLSAYSMPGQLRGVLCEDPPFFASELVPAHGHSVRQGAGPVFELFRTYLGDQWSVGDWEGFCRAAGASASPMARSFVADGIPQHLQEYDPEWARVFYEGTVGLSCPHERMLGQVKTPVLLTHHMRGIDPETGNLLGALSDEQALRARRLMDSAGVTVDYESVPDASHMMHQSAPARYVEIFTRWAAALAP",
+    "values": {
+      "Km_uM": 1.05,
+      "kcat_s": 1.23
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.18122977346278318
+  },
+  {
+    "enzyme": "ZenA_Rt",
+    "accession": "WP_007530102.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MPHDYEEKLVDLGEIDLNYAEAGSPDKPALLLIPSQSESWWGYEEAMGLLAEDYHVFAVDMRGQGRSTWTPGRYSLDNFGNDLVRFIDLVIGRTVIVSGNSSGGVVAAWLAAFSLPGQVRAALAEDAPFFASELDPKVGHTIRQAAGHIFVNWRDYLGDQWSVGDYAGFLKAMKSSEVPMLRQVPLPETAPQNLLEYDPEWARAFYEGTVAQTCPHDYMLSQVKVPMLVTHHARMIDEATSGLVGAMSDLQVQKAAEIIRGTGVQVDVVDLPEAPHILHQLAPKEYVEILNNWVEKLPPV",
+    "values": {
+      "Km_uM": 0.14,
+      "kcat_s": 0.169
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.18666666666666668
+  },
+  {
+    "enzyme": "ZenA_Nb",
+    "accession": "YP_006808627.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MGISEAADRADTFVAHKFEEQLVDLGEIRMNYVAAGDPTSPALLLIPAQGESWWGYENAITLLANDFRVFAIDLRGQGRSTWTPGRYNLNTWGNDVERFIDLVIGRPTLVAGNSSGGVIAAWLAAYAKPGQIRGAMLEDPPLFASQAAPPYGPGIMQTLGPIFVLWAKWLGPQWSVGDWDGMVAAAPRELPEFLHPGIAFLFGDGTGEGAAATPPQHLKEYDPEWAQAWATDVANAGCDHATMLAQNRVPVLLTHHFHLTDPDTGQLMGAMTDIQAQQARRLLAATGQPVTFTALDAPHTMHDPEPERYFEVLTEWASALD",
+    "values": {
+      "Km_uM": 11.33,
+      "kcat_s": 0.007
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.19937694704049844
+  },
+  {
+    "enzyme": "ZenA_Mg",
+    "accession": "YP_001134273.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MGRYAGVFGPHAPEATYVEHGYPERLFDTGEVQLNYVVAGDAAAPPLLLIPGQSESWWGYEAAIPLLARHFHVHAVDLRGQGRSTRTPGRYTLDNVGNDLVRFLDGVIGRPAFVSGLSSGGLASAWLSAFAKPGQVVAACWEDPPFFSSETAPIVGPPITDSIGPLFGMWARYLGDQWSVGDWDGFVAAVPTELADWQAHVALVVGTADPPQNLREYDPEWGKAFITGTFAASCPHHVMLSKVKVPVLYTHHFRMIDEGSGGLIGACSDIQAGRVTQLAKSGGRSVTYRSFPMMAHSMHGQDPALFSETLVEWFSRFTG",
+    "values": {
+      "Km_uM": 6.01,
+      "kcat_s": 0.003
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.1724137931034483
+  },
+  {
+    "enzyme": "ZenA_Ge",
+    "accession": "WP_007315861.1",
+    "group": "ZenA_2024",
+    "doi": "10.1021/acscatal.4c00271",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MPKSEAADRADSFVSHDFKENIVDLGEIRMNYVVQGNKKSPALLLIPAQGESWWGYEAAIPLLAKHFQVFAIDLRGQGRTTWTPGRYTLDIFGNDVVRFIDLVIGRETLIAGNSSGGLIGAWLAAFAKPGQVRAVMLEDPPLFASEIRPPYGPGIWQGLGPMFAAWAKWLGPQWSIGDWDGMVKALPDELPEDLLPGIGFMLGDGESDGAAPTPPQHLKEYDPEWGASWASGFANTGCEHEAVISQVRVPVLLTHHFRQINEETGHLMGALSDLQAAQVRHIIEEVAGQEVTYVSLDAPHTMHEPQPERYTDVLLDWVKKLG",
+    "values": {
+      "Km_uM": 17.6,
+      "kcat_s": 0.024
+    },
+    "notes": "Primary Table 1 (image transcribed); temperatures/pH differ by enzyme. Efficiency not separately reported and not fabricated.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.18181818181818182
+  },
+  {
+    "enzyme": "ZHRnZ_WT",
+    "accession": "GAP90066.2",
+    "group": "ZHRnZ_2024",
+    "doi": "10.3390/ijms25179665",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MRTRGTTTTAEGITWYYEQEGTGPDVVLVPDGLGECQMFDGALSRLAARGFRATTFDMPGMSRSAAAPRAAYEDVTAQKLAAYVASVTAALGIGVDGAPPAAFWGCSSGGAAVLALVAGYPERVRCALVHEVPTYHMEDLVSARELGDDDAVAASLAASVPAGSYARGGDLRAWFALGGDAHARLWRNYPRWARGYPRTIPPSSPTAPEDLARRPLYWTVGADTPASRFLDNVVTAAKNGIDVGCLPGMHFPYVSHPDAFVKHVADIVSKHL",
+    "values": {
+      "Km_uM": 67.56311073000197,
+      "kcat_s": 0.00242,
+      "kcat_Km_M_s": 35.975697000000004
+    },
+    "notes": "Table 3; mass-based Km and efficiency converted using the same ZEN MW as original training. Mutants reconstructed from explicitly named positions.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.5757575757575758
+  },
+  {
+    "enzyme": "ZHRnZ_E122Q",
+    "accession": "GAP90066.2",
+    "group": "ZHRnZ_2024",
+    "doi": "10.3390/ijms25179665",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MRTRGTTTTAEGITWYYEQEGTGPDVVLVPDGLGECQMFDGALSRLAARGFRATTFDMPGMSRSAAAPRAAYEDVTAQKLAAYVASVTAALGIGVDGAPPAAFWGCSSGGAAVLALVAGYPQRVRCALVHEVPTYHMEDLVSARELGDDDAVAASLAASVPAGSYARGGDLRAWFALGGDAHARLWRNYPRWARGYPRTIPPSSPTAPEDLARRPLYWTVGADTPASRFLDNVVTAAKNGIDVGCLPGMHFPYVSHPDAFVKHVADIVSKHL",
+    "values": {
+      "Km_uM": 271.32038609286707,
+      "kcat_s": 0.00741,
+      "kcat_Km_M_s": 27.379734000000003
+    },
+    "notes": "Table 3; mass-based Km and efficiency converted using the same ZEN MW as original training. Mutants reconstructed from explicitly named positions.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.5757575757575758
+  },
+  {
+    "enzyme": "ZHRnZ_E122R",
+    "accession": "GAP90066.2",
+    "group": "ZHRnZ_2024",
+    "doi": "10.3390/ijms25179665",
+    "year": 2024,
+    "substrate": "Zearalenone",
+    "sequence": "MRTRGTTTTAEGITWYYEQEGTGPDVVLVPDGLGECQMFDGALSRLAARGFRATTFDMPGMSRSAAAPRAAYEDVTAQKLAAYVASVTAALGIGVDGAPPAAFWGCSSGGAAVLALVAGYPRRVRCALVHEVPTYHMEDLVSARELGDDDAVAASLAASVPAGSYARGGDLRAWFALGGDAHARLWRNYPRWARGYPRTIPPSSPTAPEDLARRPLYWTVGADTPASRFLDNVVTAAKNGIDVGCLPGMHFPYVSHPDAFVKHVADIVSKHL",
+    "values": {
+      "Km_uM": 25.51441880333826,
+      "kcat_s": 0.001202,
+      "kcat_Km_M_s": 47.118612000000006
+    },
+    "notes": "Table 3; mass-based Km and efficiency converted using the same ZEN MW as original training. Mutants reconstructed from explicitly named positions.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.5757575757575758
+  },
+  {
+    "enzyme": "ZPH1101",
+    "accession": "AFQ59371.1",
+    "group": "ZPH1101_2025",
+    "doi": "10.3390/toxins17010021",
+    "year": 2025,
+    "substrate": "Zearalenone",
+    "sequence": "MKKRGVSNMYSVLFRQAEESSQLAGAKGMNLIKLTKHGLPVPDGFIIQTNALARFMEDNQLQETSENVEGGIISGTFSDELKDELTSSFYKLRESYRSVAVRSSSASEDLEGASFAGQYETYLNIKTEEEFLAKVKECWASFFSGRVSSYKKKMNNQIAEPLMGIVVQGLIDSEMSGVIFSRNPVTHDDRELLISASYGLGEAVVSGNVTPDTFIVNKSSFEIQKEIGAKEIYMESAAEGIAEKETSEDMRSRFCLTDEQVIELAEITKKTEDLYGYPVDIEFGIADHQIYLLQARPITTIDQDKKAAEEKRSFMITDTDMNDFWLNMESNIEGPVSPLFSSFIVPALEYGLKKSMQKFPIGVVVDEVKLYRGHIYSKNQGGQQPPSEDCGKELFPILSEHMYDIINHTYLPFYRTLDQLAQTEHTAESALEAFQKLKAFYLTAYEEHFNIVFPQILLTNKLQAMYQDIQGESENAHFYEMLTGKMNKSLETDRCLWLFSVEVQENPNLLAIFENNKPEQLQEKLEQTDEGRHFLKNVHEFLQEYGWRSVKSHDLIEQIWVENPYFALANIQNYVRNGYHFDNEFQKTKEKREKLYNEFLESIEDPGLRTEFDRYYQWTLNSANIKDDHHFYIDAMLDAKARIFLLKIGELLAENGVIQDREDLWFLYDDEVEQALLHPVSLQEKAEKRRQIFHEYELAQAPAYLGTPTKEQLKAAEEIVGAVIEDEKNTENHIFGIAASSGIATGPVKIIRDANEFSQFAPGDVLVCKMTTPLWTSLFQDAKAIITDTGGILSHAAIIAREYGIPAVLGTRTATERLRDGDIITVDGSSGKITVVSRS",
+    "values": {
+      "Km_uM": 18.18,
+      "kcat_s": 54.69
+    },
+    "notes": "Article reports 100% identity with AFQ59371; two numerical parameters reported directly. Phosphorylation rather than hydrolysis.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.18930041152263374
+  },
+  {
+    "enzyme": "Cr2zen",
+    "accession": "ACW19936.1",
+    "group": "Cr2zen_2026",
+    "doi": "10.3390/toxins18010010",
+    "year": 2026,
+    "substrate": "Zearalenone",
+    "sequence": "MRTRSTISTPNGITWYYEQEGTGPDVVLVPDGLGECQMFDRSVSQIAAQGFRVTTFDMPGMSRSVKAPPETYTEVTAQKLASYVISVLDALDIKHATVWGCSSGASTVVALLLGYPDRIRNAMCHELPTKLLDHLSNTAVLEDEEISKILANVMLNDVSGGSEAWQAMGDEVHARLHKNYPVWARGYPRTIPPSAPVKDLEALRGKPLDWTVGAATPTESFFDNIVTATKAGVNIGLLPGMHFPYVSHPDVFAKYVVETTQKYL",
+    "values": {
+      "Km_uM": 75.9
+    },
+    "notes": "Km only; stated efficiency has inconsistent dimensions and is not scored. Accession is 98.48% identical to ZHD101 according to article; not an unseen-family test.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.9583333333333334
+  },
+  {
+    "enzyme": "MgSDR1",
+    "accession": "XP_001483215.1",
+    "group": "MgSDR1_2025",
+    "doi": "10.1002/advs.202501146",
+    "year": 2025,
+    "substrate": "Patulin",
+    "sequence": "MSLRVSDIFNVQNYQVVITGGASGLGKILARGFVANGCNICIVDIDQEGVDATLSELKAIAEESNTSSQVTSVVGDLSSEVGLQGIISSIKSKFSQLDVLVNCAGIRRVNAISYTPGESLSQLAAATGSSSYSDWESTFKINVLSPHFLTAGLVELLGKASQKEFGRGNVICFSSVSSVHNGQYVPSYQTSKASVDHLVRIMAAEFSDKYIRVNAISPGLFPSKMNPMDISIPESNMRYAREMPARRPGTEQELVSAAIFLASNKYVDGRIIRIDGGRLLVCKGNISQDD",
+    "values": {
+      "Km_uM": 1420,
+      "kcat_s": 0.0123,
+      "kcat_Km_M_s": 8.66
+    },
+    "notes": "SI Table S5. Figure 3A prints NP_001483215.1, which is invalid; XP_001483215.1 matches the illustrated alignment, 290-aa length, cloning primer MSLR, and S174/Y188/K192. Reference sequence mapping correction is disclosed; exact experimental strain sequence not deposited.",
+    "status": "reference_sequence_proxy",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.2345679012345679
+  },
+  {
+    "enzyme": "ZenR",
+    "accession": "WP_081559690.1",
+    "group": "ZenR_2023",
+    "doi": "10.3390/toxins15120688",
+    "year": 2023,
+    "substrate": "Zearalenone",
+    "sequence": "MTEEGTRSEAANAATHARQLPDSRNIFVSHRFPESQVDLGEVVMNFAEAGSADNPALLLLPEQTGSWWSYEPVMGLLAENFHVFAVDIRGQGRSTWTPRRYSLDNFGNDLVRFIALVIKRPVVVAGNSSGGLLAAWLSAYAMPGQIRAALCEDAPFFASELVPAYGHSVLQAAGPAFELYRDFLGDQWSIGDWKGFVEAAKASPAKAMQLFPTPDEAPQNLKEYDPEWGRAFFEGTVALHCPHDRMLSQVKTPILITHHARTIDPETGELLGALSDLQAEHAQDIIRSAGVRVDYQSHPDALHMMHLFDPARYAEILTSWSATLPVND",
+    "values": {
+      "Km_uM": 21.14
+    },
+    "notes": "Full-text accession explicitly identifies tested enzyme; Km only; Vmax is not treated as kcat.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.1949685534591195
+  },
+  {
+    "enzyme": "ZENM",
+    "accession": "RYP08044.1",
+    "group": "ZENM_2026",
+    "doi": "10.1016/j.pep.2025.106843",
+    "year": 2026,
+    "substrate": "Zearalenone",
+    "sequence": "MRTRSTLTDRNGITWYYEQEGSGPHVVLIPDGLGECHMMDKPMSLIAAKGFTCTTFDMAGMSRSWDAPPETYQDVTAQKLASYVISILDELHIDYATFWGCSSGGATVLALAADYPERMRNGLPHEVPTAASPLFGQLLKLAEMEDEAIVKMLSEEMPQTNFGHDLTAWHELGEEVHARLRKNYPRWARGYPHTLPLSSPTSKEDLTKRPLDWTVGGDTPTRVFFDNIVTASKAGIPIGTLPGMHFPYLSHPEVLAEHIVDTTRKYL",
+    "values": {
+      "Km_uM": 21.59
+    },
+    "notes": "2026 abstract reports Km; sequence accession traced through earlier literature. Exact expressed construct not verified from accessible full text.",
+    "status": "reference_sequence_proxy",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.6174242424242424
+  },
+  {
+    "enzyme": "DONepi",
+    "accession": "PX396128",
+    "group": "DON_2026",
+    "doi": "10.1038/s41467-026-70007-z",
+    "year": 2026,
+    "substrate": "Deoxynivalenol",
+    "sequence": "MMDYRVLGRTGVKVSPLTLGTMNFGSYGKVSAPAGAELIDRALEAFTGINVIDTADVYSATESESIIGAALAVSGRREDVVLASKFNRPLDKDPNHRGNSRRWIRRFTAVEDSLRRLQTDHLDIYYAHRPDEDTELEETVDTLVDLVREGKVLYYGTSTFPTSQIVEFTAQWLGRSRGVRPTVEQPPYSILVRHGERELLPTASAHGLGTFAWSPLAGGWLSGHYRQSFTDNGDQWTRWNNALRHDPELDVNKRKSAAVAQLEDLANAAGLSLVQLAIGFVLEHPAVTSFTAIIGPRTVEQLDAYLSAADTVLDSDTLDAIDRIVAPGETLSPGDIGDDPLPIRQPRLRRFTRHHRGE",
+    "values": {
+      "Km_uM": 2710.0,
+      "kcat_s": 0.0055000000000000005,
+      "kcat_Km_M_s": 2.0295
+    },
+    "notes": "Previously tested cases, retained in expanded ledger.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.3407821229050279
+  },
+  {
+    "enzyme": "DONrd",
+    "accession": "PX396129",
+    "group": "DON_2026",
+    "doi": "10.1038/s41467-026-70007-z",
+    "year": 2026,
+    "substrate": "Deoxynivalenol",
+    "sequence": "MRTTEISQGLEVSNLCIGAGPLGGMPTAFGYDVSEERGIATVEAVFTFDSPINFMDTSSEYGDSEVRIGKVIREGRMPKGFVIATKADAEGDGTARRGDFSAKQVRFTASFELSLERLGLSHIDVYFLHDPEKFPFEHVMARGGAMEELLRLKDEGLVGLVGVAGGDFTVVEMARYVDTGNLDILLNYGRYTLLDRSADSLIDKASDAGMAFLNAGPYASGLLAAPRGFTGSAWYQYAPPNADALQAVDQLHELCESFDVSLRSVALQFSMRDPRITSTVVGLSRPERVFTQALLDDAAAEIPAELWDQLPAPLNLPWNSLA",
+    "values": {
+      "Km_uM": 153.38,
+      "kcat_s": 0.5345,
+      "kcat_Km_M_s": 3485.3333333333335
+    },
+    "notes": "Previously tested cases, retained in expanded ledger.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.21428571428571427
+  },
+  {
+    "enzyme": "ZHDAY3_WT",
+    "accession": "XP_013255140.1",
+    "group": "ZHDAY3_2024",
+    "doi": "10.1128/aem.01818-23",
+    "year": 2024,
+    "substrate": "alpha-zearalanol",
+    "sequence": "MRTRSNITTKNGIHWYYEQEGSGPHVVLIPDGLGECKMFDKPMSLIANSGFTVTTFDMPGMSRSSEAPPETYQEITAQKLASYVISICDELAIDKATFWGCSSGGCTVLALVADYPTRVRNALAHEVPTYLMEDLKPLLEMDDEAVSAAMSSNVVVGSVGDIEGSWQELGEEAHARLWKNYPRWARGYPGYIPQSTPVSKEDLIKAPLDWTVGASTPTARFLDNIVTATKHNIPFQTLPGMHFPYVTHPEVFAEYVVEKTRKYL",
+    "values": {
+      "Km_uM": 90.5,
+      "kcat_s": 9.28,
+      "kcat_Km_M_s": 100000.0
+    },
+    "notes": "Primary Table 3, publisher HTML and PMC indexed full text. The primary article explicitly gives XP_013255140.1 and 264 residues. Substrate is alpha-zearalanol, not ZEN. N153H reconstructed with residue check. PDB deposition 8JLV is the inactive S102A structural construct and is not used as the kinetic WT sequence.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.6136363636363636
+  },
+  {
+    "enzyme": "ZHDAY3_N153H",
+    "accession": "XP_013255140.1",
+    "group": "ZHDAY3_2024",
+    "doi": "10.1128/aem.01818-23",
+    "year": 2024,
+    "substrate": "alpha-zearalanol",
+    "sequence": "MRTRSNITTKNGIHWYYEQEGSGPHVVLIPDGLGECKMFDKPMSLIANSGFTVTTFDMPGMSRSSEAPPETYQEITAQKLASYVISICDELAIDKATFWGCSSGGCTVLALVADYPTRVRNALAHEVPTYLMEDLKPLLEMDDEAVSAAMSSHVVVGSVGDIEGSWQELGEEAHARLWKNYPRWARGYPGYIPQSTPVSKEDLIKAPLDWTVGASTPTARFLDNIVTATKHNIPFQTLPGMHFPYVTHPEVFAEYVVEKTRKYL",
+    "values": {
+      "Km_uM": 76.28,
+      "kcat_s": 12.3,
+      "kcat_Km_M_s": 170000.0
+    },
+    "notes": "Primary Table 3, publisher HTML and PMC indexed full text. The primary article explicitly gives XP_013255140.1 and 264 residues. Substrate is alpha-zearalanol, not ZEN. N153H reconstructed with residue check. PDB deposition 8JLV is the inactive S102A structural construct and is not used as the kinetic WT sequence.",
+    "status": "primary",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.6136363636363636
+  },
+  {
+    "enzyme": "AsPLa_D",
+    "accession": "Author SI designed sequence",
+    "group": "AsPLa_2026",
+    "doi": "10.1002/pro.70729",
+    "year": 2026,
+    "substrate": "Patulin",
+    "sequence": "MSGIQAQLDQGAVPNAISNVCPPGTKFWVLEVGWLECDKGFVIRGGNTSKKSTENGSFVNERIEMPMYCILIEHPHEGLILWDTGSGKDYEEVWGPEIADIFTRVKYEPRHELRAAIEATGHKLDDIKKIIIGHLHLDHAGGLDEFLDRTDVEIWVHEKELKNAFWSVATGADVGVYLEHYLKLDLNWKTFHDQTMDFCQGITLHHLPGHTDGLIGMQINMLNTGTFFFISDHCHVKENWRDGIPQGWLARDHPSWFRSHQRLKRLQRRTRGQVIPGHDKETFLHLQSQADVFT",
+    "values": {
+      "Km_uM": 90.0,
+      "kcat_s": 0.97,
+      "kcat_Km_M_s": 11000.0
+    },
+    "notes": "Author SI engineered protein sequence; native accession is not substituted for the designed variant. Measurements used an MBP fusion; features encode catalytic domain as in original enzyme mapping, so construct dependence is unresolved.",
+    "status": "construct_domain_only",
+    "identical_training_sequence": false,
+    "max_training_identity_shorter_denominator": 0.40476190476190477
+  }
+]

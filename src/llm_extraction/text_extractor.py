@@ -30,7 +30,7 @@ class TextExtractor:
     MAX_CHUNK_SIZE = 8000 chars (safe for most LLMs including GPT-5, gpt-5-nano)
     """
     
-    def __init__(self, llm_client: BaseLLMClient, prompt_path: str = "prompts/prompts_extract_from_text_v7_expanded.txt", max_workers: int = 2):
+    def __init__(self, llm_client: BaseLLMClient, prompt_path: str = "prompts/prompts_extract_from_text_v8.txt", max_workers: int = 2):
         """
         Initialize the text extractor.
         

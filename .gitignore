@@ -39,12 +39,19 @@ logs/
 *.log
 
 # Data
-data/
+/data/*
+!/data/database/
+!/data/validation/
+!/data/modeling/
+!/data/SHA256SUMS.txt
 results/
+/output/
 *.pdf
 *.png
 *.jpg
 *.jpeg
+!/figures/**/*.pdf
+!/figures/**/*.png
 
 # Environment variables
 .env
@@ -58,7 +65,6 @@ htmlcov/
 .tox/
 
 # Documentation
-docs/_build/
 site/
 
 # Jupyter Notebook

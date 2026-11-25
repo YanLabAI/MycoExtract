@@ -1,0 +1,65 @@
+[
+  {
+    "name": "ZHD30L",
+    "pmc": "PMC13517648",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13517648/fullTextXML",
+    "bytes": 150712,
+    "status": "downloaded"
+  },
+  {
+    "name": "ZHRnZ",
+    "pmc": "PMC11395237",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11395237/fullTextXML",
+    "bytes": 124896,
+    "status": "downloaded"
+  },
+  {
+    "name": "ZenA",
+    "pmc": "PMC10913051",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10913051/fullTextXML",
+    "bytes": 255077,
+    "status": "downloaded"
+  },
+  {
+    "name": "DDE",
+    "pmc": "PMC12737667",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12737667/fullTextXML",
+    "bytes": 193009,
+    "status": "downloaded"
+  },
+  {
+    "name": "MgSDR1",
+    "pmc": "PMC12225012",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12225012/fullTextXML",
+    "bytes": 137272,
+    "status": "downloaded"
+  },
+  {
+    "name": "AMH2102",
+    "pmc": "PMC12944703",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12944703/fullTextXML",
+    "bytes": 142013,
+    "status": "downloaded"
+  },
+  {
+    "name": "MbAmh1",
+    "pmc": "PMC12147602",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12147602/fullTextXML",
+    "bytes": 138272,
+    "status": "downloaded"
+  },
+  {
+    "name": "Cr2zen",
+    "pmc": "PMC12846278",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12846278/fullTextXML",
+    "bytes": 192821,
+    "status": "downloaded"
+  },
+  {
+    "name": "ZENG_free",
+    "pmc": "PMC13211546",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13211546/fullTextXML",
+    "bytes": 126684,
+    "status": "downloaded"
+  }
+]

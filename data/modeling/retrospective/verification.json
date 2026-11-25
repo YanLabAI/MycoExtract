@@ -1,0 +1,13 @@
+{
+  "original_manuscript_SI_response_unchanged": true,
+  "training_features_unchanged": true,
+  "all_22_candidates_retained": true,
+  "all_50_parameters_retained": true,
+  "previous_DON_predictions_reproduced": true,
+  "primary_candidates": 19,
+  "primary_parameters": 43,
+  "caveat_candidates": 3,
+  "caveat_parameters": 7,
+  "figure_png_visually_checked": true,
+  "post_hoc_selection_explicit": true
+}

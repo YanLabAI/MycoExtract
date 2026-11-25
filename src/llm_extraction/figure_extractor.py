@@ -24,7 +24,7 @@ class FigureExtractor:
     Extractor for figure content using multimodal vision models.
     """
     
-    def __init__(self, llm_client: BaseLLMClient, prompt_path: str = "prompts/prompts_extract_from_table_v7_expanded.txt"):
+    def __init__(self, llm_client: BaseLLMClient, prompt_path: str = "prompts/prompts_extract_from_table_v8.txt"):
         """
         Initialize the figure extractor.
         

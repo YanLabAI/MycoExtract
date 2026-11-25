@@ -88,9 +88,9 @@ class EnhancedExtractionPipeline:
         text_client=None,
         multimodal_client=None,
         review_client=None,  # Add review_client for ReviewerAgent
-        text_prompt_path: str = "prompts/prompts_extract_from_text_v7_expanded.txt",
-        table_prompt_path: str = "prompts/prompts_extract_from_table_v7_expanded.txt",
-        figure_prompt_path: str = "prompts/prompts_extract_from_table_v7_expanded.txt",
+        text_prompt_path: str = "prompts/prompts_extract_from_text_v8.txt",
+        table_prompt_path: str = "prompts/prompts_extract_from_table_v8.txt",
+        figure_prompt_path: str = "prompts/prompts_extract_from_table_v8.txt",
         max_workers: int = 5,
         context_overlap_sentences: int = 0,
         use_multi_agent: bool = False,

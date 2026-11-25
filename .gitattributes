@@ -1,0 +1,5 @@
+# Preserve the bytes of archived research data and figures across platforms.
+/data/** -text whitespace=cr-at-eol
+/data/**/*.fasta whitespace=cr-at-eol,-blank-at-eof
+/figures/** -text
+/figures/**/*.svg whitespace=cr-at-eol,-blank-at-eol

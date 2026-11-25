@@ -5,7 +5,7 @@ Centralized factory for creating and managing multiple LLM clients.
 Implements the "Heterogeneous Model, Smart Dispatching" strategy.
 
 This factory:
-1. Reads the extraction_config.yaml file
+1. Reads the extraction_config_v8.yaml file
 2. Creates specialized LLM clients for different tasks
 3. Returns a dictionary of named clients for dependency injection
 """
@@ -28,7 +28,7 @@ class ClientFactory:
     are used for different tasks (text vs multimodal extraction).
     """
     
-    def __init__(self, config_path: str = "config/extraction_config.yaml"):
+    def __init__(self, config_path: str = "config/extraction_config_v8.yaml"):
         """
         Initialize the client factory.
         
@@ -159,7 +159,7 @@ class ClientFactory:
         return self.config.get("logging", {})
 
 
-def create_clients_from_config(config_path: str = "config/extraction_config.yaml") -> Dict[str, BaseLLMClient]:
+def create_clients_from_config(config_path: str = "config/extraction_config_v8.yaml") -> Dict[str, BaseLLMClient]:
     """
     Convenience function to create all clients from a config file.
     

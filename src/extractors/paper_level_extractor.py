@@ -4182,9 +4182,9 @@ def create_paper_level_extractor(
     glm47_client,  # 历史参数名；第三文本模型，可选，传 None 则只使用2个学生模型
     glm46v_client,
     aggregation_client,
-    text_prompt_path: str = "prompts/prompts_extract_from_text_v7_expanded.txt",
-    table_prompt_path: str = "prompts/prompts_extract_from_table_v7_expanded.txt",
-    figure_prompt_path: str = "prompts/prompts_extract_from_table_v7_expanded.txt",
+    text_prompt_path: str = "prompts/prompts_extract_from_text_v8.txt",
+    table_prompt_path: str = "prompts/prompts_extract_from_table_v8.txt",
+    figure_prompt_path: str = "prompts/prompts_extract_from_table_v8.txt",
     disable_table_image: bool = False,
 ) -> PaperLevelMultiModelExtractor:
     """

@@ -39,7 +39,7 @@ def run_extraction(input_dir: str, output_dir: str = None, limit: int = None,
         output_dir: 输出目录
         limit: 限制处理的论文数量（用于测试）
         config_file: 配置文件路径
-        max_workers: 最大并发数（GLM-4.7建议2）
+        max_workers: 最大并发数（API建议2）
     """
     input_path = Path(input_dir)
     if not input_path.exists():
@@ -70,7 +70,7 @@ def run_extraction(input_dir: str, output_dir: str = None, limit: int = None,
     if config_file:
         config_path = Path(config_file)
     else:
-        config_path = PROJECT_ROOT / "config" / "extraction_config.yaml"
+        config_path = PROJECT_ROOT / "config" / "extraction_config_v8.yaml"
 
     logger.info(f"📋 使用配置文件: {config_path}")
 
@@ -97,24 +97,24 @@ def run_extraction(input_dir: str, output_dir: str = None, limit: int = None,
         deepseek_config.get('model_name', 'deepseek-chat')
     )
 
-    glm47_config = llm_config.get('glm47_client', {})
-    glm47_client = build_client(
-        glm47_config.get('provider', 'zhipuai'),
-        glm47_config.get('model_name', 'glm-4.7')
+    third_text_config = llm_config.get('minimax_client', llm_config.get('glm47_client', {}))
+    third_text_client = build_client(
+        third_text_config.get('provider', 'minimax'),
+        third_text_config.get('model_name', 'MiniMax-M2.7')
     )
 
     # 视觉模型（表格提取）
-    glm46v_config = llm_config.get('glm46v_client', {})
-    glm46v_client = build_client(
-        glm46v_config.get('provider', 'zhipuai'),
-        glm46v_config.get('model_name', 'glm-4.6v')
+    vision_config = llm_config.get('mimo_vision_client', llm_config.get('glm46v_client', {}))
+    vision_table_client = build_client(
+        vision_config.get('provider', 'mimo'),
+        vision_config.get('model_name', 'mimo-v2.5')
     )
 
     # 教师模型（聚合）
     aggregation_config = llm_config.get('aggregation_client', {})
     aggregation_client = build_client(
-        aggregation_config.get('provider', 'openai'),
-        aggregation_config.get('model_name', 'gpt-5.1')
+        aggregation_config.get('provider', 'mimo'),
+        aggregation_config.get('model_name', 'mimo-v2.5-pro')
     )
 
     # 兼容旧配置
@@ -126,35 +126,26 @@ def run_extraction(input_dir: str, output_dir: str = None, limit: int = None,
 
     multimodal_config = llm_config.get('multimodal_client', {})
     multimodal_client = build_client(
-        multimodal_config.get('provider', 'zhipuai'),
-        multimodal_config.get('model_name', 'glm-4.6v')
+        multimodal_config.get('provider', 'mimo'),
+        multimodal_config.get('model_name', 'mimo-v2.5')
     )
 
     review_config = llm_config.get('review_client', {})
     review_client = build_client(
-        review_config.get('provider', 'openai'),
-        review_config.get('model_name', 'gpt-5.1')
+        review_config.get('provider', 'mimo'),
+        review_config.get('model_name', 'mimo-v2.5-pro')
     )
 
-    # 检查是否使用扩展版配置
-    is_expanded = "v7_expanded" in str(config_path)
+    file_paths = config.get('file_paths', {})
+    text_prompt = file_paths.get('prompt_text', 'prompts/prompts_extract_from_text_v8.txt')
+    table_prompt = file_paths.get('prompt_table', 'prompts/prompts_extract_from_table_v8.txt')
 
-    # 设置prompt路径
-    if is_expanded:
-        text_prompt = "prompts/prompts_extract_from_text_v7_expanded.txt"
-        table_prompt = "prompts/prompts_extract_from_table_v7_expanded.txt"
-        logger.info("📋 使用扩展版Prompt (v7.0) - 接受固定化/粗酶")
-    else:
-        text_prompt = config.get('file_paths', {}).get('prompt_text', 'prompts/prompts_extract_from_text_v7_expanded.txt')
-        table_prompt = config.get('file_paths', {}).get('prompt_table', 'prompts/prompts_extract_from_table_v7_expanded.txt')
-
-    # 初始化pipeline
     pipeline = EnhancedExtractionPipeline(
         use_paper_level_aggregation=True,
         kimi_client=kimi_client,
         deepseek_client=deepseek_client,
-        glm47_client=glm47_client,
-        glm46v_client=glm46v_client,
+        third_text_client=third_text_client,
+        vision_table_client=vision_table_client,
         aggregation_client=aggregation_client,
         text_client=text_client,
         multimodal_client=multimodal_client,
@@ -165,7 +156,7 @@ def run_extraction(input_dir: str, output_dir: str = None, limit: int = None,
         use_full_md=True,
         enable_record_merge=True,
         enable_sequence_enrichment=True,
-        require_sequence=not is_expanded,
+        require_sequence=config.get('schema', {}).get('version') != 'v8',
     )
 
     # 运行提取
@@ -215,7 +206,7 @@ def main():
 
 示例:
   python scripts/run_extraction.py -i data/papers
-  python scripts/run_extraction.py -i data/papers -c config/extraction_config_v7_expanded.yaml
+  python scripts/run_extraction.py -i data/papers -c config/extraction_config_v8.yaml
   python scripts/run_extraction.py -i data/papers -n 10  # 测试10篇
         """
     )
@@ -226,9 +217,9 @@ def main():
     parser.add_argument('--limit', '-n', type=int,
                         help='限制处理的论文数量（用于测试）')
     parser.add_argument('--config', '-c',
-                        help='配置文件路径（默认：config/extraction_config.yaml）')
+                        help='配置文件路径（默认：config/extraction_config_v8.yaml）')
     parser.add_argument('--max-workers', type=int, default=2,
-                        help='最大并发数（默认：2，适配GLM-4.7限制）')
+                        help='最大并发数（默认：2，适配API限制）')
 
     args = parser.parse_args()
 

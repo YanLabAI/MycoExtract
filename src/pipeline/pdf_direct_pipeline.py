@@ -61,7 +61,7 @@ class PDFDirectPipeline:
     def __init__(
         self,
         llm_client: BaseLLMClient,
-        prompt_path: str = "prompts/prompts_extract_from_text_v7_expanded.txt",
+        prompt_path: str = "prompts/prompts_extract_from_text_v8.txt",
         max_workers: int = 2,
         max_pages: int = 30,  # 最大处理页数
         dpi: int = 150,  # 图像分辨率
